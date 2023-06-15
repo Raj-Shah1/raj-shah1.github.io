@@ -48,9 +48,21 @@ const skillsSection = {
   subTitle: "DATA ANALYST AND BACKEND DEVELOPER WHO CRAFTS ROBUST SOLUTIONS USING DIVERSE TECH STACKS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive visualisations for your data using SQL / Excel / PowerBI / Metabase"
+      "⚡ Analyse and develop highly interactive visualisations for your data"
     ),
-    emoji("⚡ Backend Developer with SQL / Nodejs / Golang / Mongodb"),
+    emoji(
+      "- Transform and analyse data using SQL, Nodejs, Python, Excel, Azure Services, Redshift"
+    ),
+    emoji(
+      "- Visualise data using PowerBI, Metabase, Excel, SQL tools"
+    ),
+    emoji("⚡ Built application logic, databases, API and its integration as a Backend Developer"),
+    emoji(
+      "- Worked on Thursday, a remote culture building app, using Golang, Python, Redshift, and some more cool libraries and frameworks"
+    ),
+    emoji(
+      "- Worked on Jam, a Web3 Social Media Platform, using Golang, Mongodb, Weaviate, GraphQL and some more tools"
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -135,25 +147,25 @@ const workExperiences = {
       company: "True Sparrow",
       companylogo: require("./assets/images/truesparrowLogo.png"),
       date: "April 2022 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Worked on Thursday, a remote culture building platform for teams and Jam, a Web3 Social Media Platform",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Analyzed data for Thursday using PostgreSQL and visuals using Metabase",
+        "Built APIs, databases for Thursday and Jam using Golang, Python, Mongodb, Redshift"
       ]
     },
     {
       role: "Business Intelligence Engineer",
       company: "Moxie",
       companylogo: require("./assets/images/moxieLogo.png"),
-      date: "October 2020 – March 2020",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "October 2020 – March 2022",
+      desc: "Analyzed, transformed and visualised Customer, Sales, Marketing data for Moxie using SQL, Excel, Nodejs, Metabase and more",
     },
     {
       role: "Software Engineer",
       company: "MAQ Software",
       companylogo: require("./assets/images/maqLogo.png"),
       date: "Jan 2020 – Sep 2020",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Worked as an Analyst to fetch and extract data from multiple cloud sources, transforming and generating business insights using SQL, PowerBI, Azure Data Factory, Azure Databricks and more",
     }
   ]
 };
